@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "433830692125",
+    "firebase_url": "https://ask-bindaas-db80b.firebaseio.com",
+    "project_id": "ask-bindaas-db80b",
+    "storage_bucket": "ask-bindaas-db80b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433830692125:android:1f67e7423a7ab7f6",
+        "android_client_info": {
+          "package_name": "com.example.jiggy.ab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433830692125-klqgnfueegm6atsrr88dbc1nsndcntkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2c3I-8T9QjT0q42elE08GflNtbziKXhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

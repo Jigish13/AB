@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jiggy.ab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppEngineersBook"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- <activity android:name=".Activity.LoginActivity"> -->
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.AddAnswerActivity" />
+        <activity android:name=".Activity.AddArticleActivity" />
+        <activity android:name=".Activity.AddDoubtActivity" />
+        <activity android:name=".Activity.ApprovalActivity" />
+        <activity android:name=".Activity.ArticleActivity" />
+        <activity android:name=".Activity.RegistrationActivity" />
+        <activity android:name=".Activity.DoubtsQuestionActivity" />
+        <activity android:name=".Activity.ForgotPasswordActivity" />
+        <activity android:name=".Activity.CompanyHomeActivity" />
+        <activity android:name=".Activity.CompanyLoginActivity" />
+        <activity android:name=".Activity.RegisterCompanyActivity" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:windowSoftInputMode="adjustPan">
+
+            <!--
+                            <intent-filter>
+                            <action android:name="android.intent.action.MAIN" />
+
+                            <category android:name="android.intent.category.LAUNCHER" />
+                        </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".Activity.ChancellorRegistrationActivity" />
+        <activity android:name=".Activity.FacultyRegistrationActivity" />
+        <activity android:name=".Activity.HODRegistrationActivity" />
+        <activity android:name=".Activity.PrincipalRegistrationActivity" />
+        <activity android:name=".Activity.StudentRegistrationActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activity.ChatActivity" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ForgetPasswordTokenActivity" />
+        <activity android:name=".Activity.ContactsInNetworkActivity" />
+        <activity android:name=".Activity.DisapprovalActivity"></activity>
+    </application>
+
+</manifest>
