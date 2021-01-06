@@ -7,3 +7,13 @@
 ![img](images/img1.PNG)
 ![img](images/img2.PNG)
 ![img](images/img3.PNG)
+
+## Development Tools & Technologies:
+
+* Front End: Android 
+
+* Back End: Java
+
+* Database: SQLite Browser, Firebase Realtime NoSQL Database - to develop chat functionality
+
+* Tools: Android Studio, Spring Boot, IntelliJ
